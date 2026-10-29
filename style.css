@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0A0708;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.upper-section {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1{
+    font-size: 3rem;
+    color:white;
+}
+
+.logo img{
+    width: 150px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.box {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid #F17E11; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px  #1d1d1d59;
+    background-color: #1d1d1d59;
+    color: white;
+    backdrop-filter: blur(16px);
+    padding: 6px 0px;
+    position: relative;
+}
+
+.box img{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+}
+
+.box h3{
+    font-size: 20px;
+    margin:3px 0px;
+}
+.box p{
+    font-size: 12px;
+    color: gray;
+}
+
+.box hr{
+    width: 50px;
+    margin:5px 0px;
+    border: none;
+    height: 1px;
+    background-color: #F17E11;
+}
+.box h2{
+    font-size: 22px;
+    color: #F17E11;
+}
+.box:hover {
+    /* background-image: radial-gradient(rgba(0, 0, 0, 0.164) 90%, #f17d1166); */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px 1px #f17d1166;
+}
+
+.lower-section {
+    width: 98.5%;
+    margin: auto;
+    height: fit-content;
+    padding: 5px 0px 5px 40px;
+    background-color: #1d1d1d59;
+    /* border: 1px solid #4C392F; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 0px #1d1d1d59;
+
+}
+.lower-section-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    width: 70%;
+}
+
+.lower-section-child h2{
+    font-size: 40px;
+    color: white;
+}
+.chief{
+    font-size: 12px;
+    color:#F17E11;
+    font-weight:200;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.para{
+    font-size: 15px;
+    color: gray;
+    padding: 10px 0px;
+}
+
+.button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid  #F17E11;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #F17E11;
+
+}
+
+.button button{
+    background-color: transparent;
+    border: none ;
+    color: #F17E11;
+}
+.stack{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.leave-div{
+    position: relative;
+    /* background-color: #F17E11; */
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.leave{
+    width: 300px;
+    height:350px;
+    object-fit: cover;
+    opacity: 0.2;
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    z-index: 1;
+}
+
+
+footer {
+    width: 100%;
+    height:50px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(114, 114, 114);
+    border-top: 1px solid #F17E11;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+.signature{
+    width: 110px;
+    height: 30px;
+    border:1px solid #F17E11;
+    border-radius: 15px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #F17E11;
+    font-weight: 100;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+
+}
+.signature2{
+    width: 70px;
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+   font-size: 15px;
+    gap:20px;
+}
+
+
+.follow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-box{
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    border: 1px solid #F17E11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color:#F17E11;
+    font-size: 10px;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #F17E11;
+}
